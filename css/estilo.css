@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Poppins&display=swap');
+
+
+
+body {
+  font-: 'Poppins';
+  margin: 0px; 
+}
+
+header, #principal, #second, #contato, #stream {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-around;
+  text-align: justify;
+  align-items: center;
+  margin-left: 200px;
+}
+
+.item-menu{
+  display: inline-block;
+  margin: 5px;
+  justify-content:end;
+}
+
+.link-menu {
+  color: #fff;
+  background-color: #555;  
+  border: solid 5px transparent;
+  border-radius: 10%;
+  padding: 1px;
+  text-align: right;
+  text-decoration: none;
+}
+
+.f {
+  background-color: #5b305a;
+}
+
+.l {
+  background-color: #e49756;
+}
+
+.m {
+  background-color: #e04b5a;
+}
+
+main {
+  background-color: #333;
+  color: #ddd;
+  
+}
+#sec_ctd{
+  margin-right: 250px;
+  margin-left: 50px;
+  margin-bottom: 60px;
+}
+
+h1, h2{
+  font-family: 'Amatic SC';
+  text-align: end;
+  font-size: 40px;
+  margin-bottom: 80px;
+}
+
+#second a{
+  color: #fff;
+  width: 300px;
+  text-decoration: none;
+}
+
+.capa{
+  margin-left: -70px;
+}
+
+footer {
+  background-color: #333;
+  color: #ddd;
+  height: 40px;
+  align-items: center;
+  margin-bottom: 0;
+}
+
+#email a{
+  color:white;
+}
+
+#social img{
+  margin-top: 10px;
+  width: 25px;
+}
+
+#logo{
+  width: 100px;
+  height: 100px;
+  margin-left: -50px;
+}
+
+img{
+  width: 300px;
+}
+
+#descricao{
+  border: 2px solid #e2e2e2;
+  padding: 10px;
+  width: 600px;
+}
+
+#acesso{
+  font-family: 'Amatic SC';
+  font-size: 25px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 25px;
+  margin-top: 60px;
+  margin-right: 100px;
+  width: 250px;
+  height: 100px;
+  border-radius: 0.3rem;
+  box-shadow: 0px 0px 30px 0px #161616;
+  color: white;
+}
+
+#acesso.l{
+  height: 50px;
+}
+
+#acesso.m img{
+  padding: 20px;
+  height: 50px;
+  width: 50px;
+}
